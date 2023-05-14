@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.5e48cb0c.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.5e48cb0c.js.map": "/static/js/main.5e48cb0c.js.map"
+    "main.css": "/70415-t2-2023-assessment/static/css/main.e6c13ad2.css",
+    "main.js": "/70415-t2-2023-assessment/static/js/main.accb02ac.js",
+    "index.html": "/70415-t2-2023-assessment/index.html",
+    "main.e6c13ad2.css.map": "/70415-t2-2023-assessment/static/css/main.e6c13ad2.css.map",
+    "main.accb02ac.js.map": "/70415-t2-2023-assessment/static/js/main.accb02ac.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.5e48cb0c.js"
+    "static/js/main.accb02ac.js"
   ]
 }
