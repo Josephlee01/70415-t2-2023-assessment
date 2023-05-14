@@ -39,9 +39,10 @@ const Navbar = () => {
     <NavbarContainer>
       <Logo>WIC 70415 Jinwoong Lee</Logo>
       <Menu>
-        <MenuItem><NavLink href="/">Home</NavLink></MenuItem>
-        <MenuItem><NavLink href="/about">About</NavLink></MenuItem>
-        <MenuItem><NavLink href="/projects">Projects</NavLink></MenuItem>
+        <MenuItem><NavLink href="/">HOME</NavLink></MenuItem>
+        <MenuItem><NavLink href="/about">ABOUT</NavLink></MenuItem>
+        <MenuItem><NavLink href="/projects">PROJECTS</NavLink></MenuItem>
+        <MenuItem><NavLink href="/kpi">KPI</NavLink></MenuItem>
       </Menu>
     </NavbarContainer>
   );

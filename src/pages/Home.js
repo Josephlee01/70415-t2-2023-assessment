@@ -58,7 +58,21 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Assessment Task 2 Powerpoint Download
+          Assessment Task 1 Powerpoint Download
+        </ExternalLink>
+        <ExternalLink
+          href="https://docs.google.com/document/d/1U0dH9fMF1fGnOBnhqyJTB4VgZVw1KxLU/edit?usp=share_link&ouid=109500212437288820673&rtpof=true&sd=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Assessment Task 1 Document Download
+        </ExternalLink>
+        <ExternalLink
+          href="https://docs.google.com/document/d/1hyDRjONFdvx2X0c4FBD_yiNZQuDiT3vn/edit?usp=share_link&ouid=109500212437288820673&rtpof=true&sd=true"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Assessment Task 2 Document Download
         </ExternalLink>
         <ExternalLink
           href="https://drive.google.com/file/d/1KqgBDgRkZiWu5L8hJ9aw_O84nIdVk_wP/view?usp=share_link"
@@ -68,13 +82,15 @@ const Home = () => {
           GANTT FILE DOWNLOAD
         </ExternalLink>
         <ExternalLink
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeFwYUjMHjx7ETpzIJbvSDhhWhxQhJvUkcjmbalQeR32KWNMA/viewform?usp=sharing"
+          href="https://forms.gle/191vbggWwzwCXCwR9"
           target="_blank"
           rel="noopener noreferrer"
         >
           Leave your feedback
         </ExternalLink>
       </ButtonContainer>
+      <Description></Description>
+      <img src="/qr.png" alt="qr" width={150} height={150} />
     </PageContainer>
   );
 };
