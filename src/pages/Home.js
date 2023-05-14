@@ -30,7 +30,7 @@ const Home = () => {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    `;
+  `;
   const ExternalLink = styled.a`
     padding: 10px 20px;
     font-size: 16px;
@@ -46,12 +46,12 @@ const Home = () => {
     }
   `;
 
-const images = [
-  'images/img1.jpg',
-  'images/img2.jpg',
-  'images/img3.jpg',
-  'images/img4.jpg',
-];
+  const images = [
+    'images/img1.jpg',
+    'images/img2.jpg',
+    'images/img3.jpg',
+    'images/img4.jpg',
+  ];
 
   return (
     <PageContainer>
@@ -59,16 +59,21 @@ const images = [
       <Title>Develop ICT Solution</Title>
       <Subtitle>WIC 70415</Subtitle>
       <Subtitle>Jinwoong Lee</Subtitle>
-      <Description>
-        Hello! I'm Jinwoong Lee!
-      </Description>
+      <Description>Hello! I'm Jinwoong Lee!</Description>
       <ButtonContainer>
-                <ExternalLink
+        <ExternalLink
           href="https://docs.google.com/presentation/d/1gfbAbRSrOhl2eVX7AhdQWpoxpVAuQwj4eUvQGp255bc/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Assessment Task 2 Powerpoint
+          Assessment Task 2 Powerpoint Download
+        </ExternalLink>
+        <ExternalLink
+          href="https://drive.google.com/file/d/1KqgBDgRkZiWu5L8hJ9aw_O84nIdVk_wP/view?usp=share_link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GANTT FILE DOWNLOAD
         </ExternalLink>
         <ExternalLink
           href="https://docs.google.com/forms/d/e/1FAIpQLSeFwYUjMHjx7ETpzIJbvSDhhWhxQhJvUkcjmbalQeR32KWNMA/viewform?usp=sharing"
@@ -78,7 +83,7 @@ const images = [
           Leave your feedback
         </ExternalLink>
       </ButtonContainer>
-      <Carousel images={images}/>
+      <Carousel images={images} />
     </PageContainer>
   );
 };

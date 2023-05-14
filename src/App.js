@@ -1,10 +1,9 @@
-import { Routes, Route, BrowserRouter, Link } from 'react-router-dom';
+import { Routes, Route, BrowserRouter} from 'react-router-dom';
 import About from './pages/About';
 import Footer from './pages/Footer';
 import Home from './pages/Home';
 import Navbar from './pages/Navbar';
 import Projects from './pages/Projects';
-import styled from 'styled-components';
 
 
 
