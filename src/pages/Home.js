@@ -45,13 +45,6 @@ const Home = () => {
     }
   `;
 
-  const images = [
-    'images/img1.jpg',
-    'images/img2.jpg',
-    'images/img3.jpg',
-    'images/img4.jpg',
-  ];
-
   return (
     <PageContainer>
       <Title>ICT50220: Diploma of Information Technology</Title>
