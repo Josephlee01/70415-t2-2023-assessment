@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Carousel from './Carousel';
 
 const Home = () => {
   const PageContainer = styled.div`
@@ -83,7 +82,6 @@ const Home = () => {
           Leave your feedback
         </ExternalLink>
       </ButtonContainer>
-      <Carousel images={images} />
     </PageContainer>
   );
 };
