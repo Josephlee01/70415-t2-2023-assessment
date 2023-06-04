@@ -9,42 +9,42 @@ const PageContainer = styled.div`
   /* margin-top: 20px; */
 `;
 
-const Title = styled.h1`
-  font-size: 28px;
-  margin-bottom: 20px;
-`;
+// const Title = styled.h1`
+//   font-size: 28px;
+//   margin-bottom: 20px;
+// `;
 
-const Subtitle = styled.h2`
-  font-size: 18px;
-  margin-bottom: 10px;
-`;
+// const Subtitle = styled.h2`
+//   font-size: 18px;
+//   margin-bottom: 10px;
+// `;
 
-const Description = styled.p`
-  font-size: 16px;
-  margin-bottom: 20px;
-  white-space: pre-line;
-`;
-const Menu = styled.ul`
-  list-style: none;
-  display: flex;
-  align-items: center;
-`;
+// const Description = styled.p`
+//   font-size: 16px;
+//   margin-bottom: 20px;
+//   white-space: pre-line;
+// `;
+// const Menu = styled.ul`
+//   list-style: none;
+//   display: flex;
+//   align-items: center;
+// `;
 
-const MenuItem = styled.li`
-  margin-left: 30px;
-`;
+// const MenuItem = styled.li`
+//   margin-left: 30px;
+// `;
 
-const NavLink = styled.a`
-  color: #000000;
-  font-size: 20px;
-  text-decoration: none;
-  transition: color 0.3s ease;
+// const NavLink = styled.a`
+//   color: #000000;
+//   font-size: 20px;
+//   text-decoration: none;
+//   transition: color 0.3s ease;
 
-  &:hover {
-    color: #ffbb00;
-    cursor: pointer;
-  }
-`;
+//   &:hover {
+//     color: #ffbb00;
+//     cursor: pointer;
+//   }
+// `;
 const Projects = () => {
   return (
     <>
