@@ -7,15 +7,19 @@ const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 `;
 
 const Logo = styled.h1`
   font-size: 24px;
+  display: flex;
+  justify-content: center;
 `;
 
 const Menu = styled.ul`
   list-style: none;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 `;
 
@@ -39,9 +43,15 @@ const Navbar = () => {
     <NavbarContainer>
       <Logo>WIC 70415 Jinwoong Lee</Logo>
       <Menu>
-        <MenuItem><NavLink href="/">HOME</NavLink></MenuItem>
-        <MenuItem><NavLink href="/about">ABOUT</NavLink></MenuItem>
-        <MenuItem><NavLink href="/scenarios">SCENARIOS</NavLink></MenuItem>
+        <MenuItem>
+          <NavLink href="/">HOME</NavLink>
+        </MenuItem>
+        <MenuItem>
+          <NavLink href="/about">ABOUT</NavLink>
+        </MenuItem>
+        <MenuItem>
+          <NavLink href="/scenarios">SCENARIOS</NavLink>
+        </MenuItem>
       </Menu>
     </NavbarContainer>
   );
