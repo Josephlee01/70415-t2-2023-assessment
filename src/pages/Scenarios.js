@@ -9,6 +9,11 @@ const PageContainer = styled.div`
   /* margin-top: 20px; */
 `;
 
+const PageImage = styled.img`
+  max-width: 100%;
+  height: auto;
+`
+
 // const Title = styled.h1`
 //   font-size: 28px;
 //   margin-bottom: 20px;
@@ -49,18 +54,18 @@ const Projects = () => {
   return (
     <>
       <PageContainer>
-        <img src="/assets/0.jpg" alt="s1" />
-        <img src="/assets/1.jpg" alt="s1" />
-        <img src="/assets/2.jpg" alt="s1" />
-        <img src="/assets/3.jpg" alt="s1" />
-        <img src="/assets/4.jpg" alt="s1" />
-        <img src="/assets/5.jpg" alt="s1" />
-        <img src="/assets/6.jpg" alt="s1" />
-        <img src="/assets/7.jpg" alt="s1" />
-        <img src="/assets/8.jpg" alt="s1" />
-        <img src="/assets/9.jpg" alt="s1" />
-        <img src="/assets/10.jpg" alt="s1" />
-        <img src="/assets/11.jpg" alt="s1" />
+        <PageImage src="/assets/0.jpg" alt="s1" />
+        <PageImage src="/assets/1.jpg" alt="s1" />
+        <PageImage src="/assets/2.jpg" alt="s1" />
+        <PageImage src="/assets/3.jpg" alt="s1" />
+        <PageImage src="/assets/4.jpg" alt="s1" />
+        <PageImage src="/assets/5.jpg" alt="s1" />
+        <PageImage src="/assets/6.jpg" alt="s1" />
+        <PageImage src="/assets/7.jpg" alt="s1" />
+        <PageImage src="/assets/8.jpg" alt="s1" />
+        <PageImage src="/assets/9.jpg" alt="s1" />
+        <PageImage src="/assets/10.jpg" alt="s1" />
+        <PageImage src="/assets/11.jpg" alt="s1" />
       </PageContainer>
     </>
   );
