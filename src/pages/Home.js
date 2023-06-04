@@ -48,40 +48,27 @@ const Home = () => {
   return (
     <PageContainer>
       <Title>ICT50220: Diploma of Information Technology</Title>
-      <Title>Develop ICT Solution</Title>
+      <Title>Contribute to organizational privacy and contingency plans</Title>
       <Subtitle>WIC 70415</Subtitle>
       <Subtitle>Jinwoong Lee</Subtitle>
       <Description>Hello! I'm Jinwoong Lee!</Description>
       <ButtonContainer>
         <ExternalLink
-          href="https://docs.google.com/presentation/d/1gfbAbRSrOhl2eVX7AhdQWpoxpVAuQwj4eUvQGp255bc/edit?usp=sharing"
+          href="/assets/A1.pdf"
           target="_blank"
+          download="/assets/A1.pdf"
           rel="noopener noreferrer"
         >
-          Assessment Task 1 Powerpoint Download
+          Assessment Task 1 PDF Download
         </ExternalLink>
         <ExternalLink
-          href="https://docs.google.com/document/d/1U0dH9fMF1fGnOBnhqyJTB4VgZVw1KxLU/edit?usp=share_link&ouid=109500212437288820673&rtpof=true&sd=true"
+          href="/assets/A2.pdf"
           target="_blank"
-          rel="noopener noreferrer"
-        >
-          Assessment Task 1 Document Download
+          download="/assets/A2.pdf"
+          rel="noopener noreferrer"        >
+          Assessment Task 2 PDF Download
         </ExternalLink>
-        <ExternalLink
-          href="https://docs.google.com/document/d/1hyDRjONFdvx2X0c4FBD_yiNZQuDiT3vn/edit?usp=share_link&ouid=109500212437288820673&rtpof=true&sd=true"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Assessment Task 2 Document Download
-        </ExternalLink>
-        <ExternalLink
-          href="https://drive.google.com/file/d/1KqgBDgRkZiWu5L8hJ9aw_O84nIdVk_wP/view?usp=share_link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GANTT FILE DOWNLOAD
-        </ExternalLink>
-        <ExternalLink
+                <ExternalLink
           href="https://forms.gle/191vbggWwzwCXCwR9"
           target="_blank"
           rel="noopener noreferrer"

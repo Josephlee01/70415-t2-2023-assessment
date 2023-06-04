@@ -2,9 +2,8 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import About from './pages/About';
 import Footer from './pages/Footer';
 import Home from './pages/Home';
-import Kpi from './pages/Kpi';
 import Navbar from './pages/Navbar';
-import Projects from './pages/Projects';
+import Scenarios from './pages/Scenarios';
 
 function App() {
   return (
@@ -14,8 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/kpi" element={<Kpi />} />
+          <Route path="/scenarios" element={<Scenarios />} />
         </Routes>
       </div>
       <Footer />
