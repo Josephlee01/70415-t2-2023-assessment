@@ -78,6 +78,11 @@ const Home = () => {
       </ButtonContainer>
       <Description></Description>
       <img src="/qr.png" alt="qr" width={150} height={150} />
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
     </PageContainer>
   );
 };
